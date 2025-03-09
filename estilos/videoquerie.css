@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 992px) {
+
+    #video {
+        height: 250px;
+    }
+
+}

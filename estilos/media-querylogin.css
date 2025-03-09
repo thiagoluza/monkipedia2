@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 767px) {
+
+    html{
+        background-image: url(../imagens/rodando.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    section#login {
+        width: 50vw;
+        height: 60vh;
+    }
+    
+    body {
+        background-color: rgba(0, 0, 0, 0.479);
+    }
+
+    #entrar {
+        width: 100%;
+        margin: 10px 0px;
+        padding: 10px 0px;
+    }
+
+    div#img {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    section#login {
+        width: 750px;
+    }
+ 
+    div#img {
+        float: left;
+        width: 50%;
+        height: 100%;
+    } 
+
+    #entrar {
+        width: 100%;
+        margin: 10px 0px;
+        padding: 10px 0px;
+    }
+
+    section#login > div#form {
+        float: right;
+        width: 50%;
+    }
+
+    div#img > h1 {
+        font-size: 1.7em;
+        color: white;
+        text-align: center;
+    }
+}
+     
+@media screen and (min-width:992px) {
+    section#login {
+        width: 990px;
+        float: left;
+    }
+
+    section#login > div#form {
+        float: right;
+        width: 50%;
+    }
+
+    div#img {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    div#img > h1 {
+        font-size: 2.5em;
+        color: white;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.432);
+        text-align: center;
+    }
+
+
+    .label {
+        padding-top: 5px;
+        padding-left: 30px;
+    }
+
+    input {
+        margin: 10px auto;
+        display: block;
+        width: 90%;
+    }
+}

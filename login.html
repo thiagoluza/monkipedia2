@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/stylelogin.css">
+    <link rel="stylesheet" href="estilos/media-querylogin.css">
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <section id="login">
+            <div id="img">
+                <h1>Bem vindo de volta!</h1>
+                <img id="logo" src="imagens/logo.png" alt="">
+            </div>
+            <div id="form">
+                <h1>Login</h1>
+                <form action="index.html" method="post" autocomplete="on">
+                    <div>
+                        <div class="label"><label for="ilogin">Email</label></div>
+                        <input type="email" name="email" id="iemail" placeholder="E-mail" autocomplete="email" required>
+                    </div>
+                    <div>
+                        <div class="label"><label for="isenha">Senha</label></div>
+                        <input type="password" name="senha" id="isenha" placeholder="Senha"
+                            autocomplete="current-password" required minlength="8" maxlength="20">
+                    </div>
+                    <input id="entrar" type="submit" value="Entrar">
+                    <a class="senha" href="index.html">Esqueceu a senha?</a>
+                </form>
+                <p style="padding: 0px;">ou</p>
+                <div class="icon">
+                    <a href=""><img class="logo" src="imagens/logo-google.png" alt="google"></a>
+                    <a href=""><img class="logo" src="imagens/logo-facebook.jpg" alt="facebook"></a>
+                    <a href=""><img class="logo" src="imagens/logo-github.jpg" alt="github"></a>
+                </div>
+                <p style="padding: 0px;">Não tem uma conta? <br>
+                    <a href="#">Registrar</a>
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
