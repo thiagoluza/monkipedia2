@@ -188,14 +188,14 @@ h1 {
 }
 
 .galeria {
-    padding: 20px;
+    padding: 30px;
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    max-width: 70vw;
+    max-width: 80vw;
 }
 
 #galeria {
